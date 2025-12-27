@@ -1,0 +1,22 @@
+# --- Python System Files ---
+__pycache__/
+*.pyc
+
+# --- User Logs & Data ---
+*.csv
+*.log
+*.txt
+
+# --- VS Code Settings (Personal Site Config) ---
+.vscode/
+
+# --- Irrelevant Scripts (Exact Name Matches) ---
+debloat.ps1
+port sweep
+port_scan.py
+quake_check.py
+quake.pyw
+my_math.py
+main.py
+monitor.py
+code for data center test
