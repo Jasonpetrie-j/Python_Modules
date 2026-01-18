@@ -1,0 +1,18 @@
+{
+    "rigol_ip": "TCPIP0::192.168.1.102::INSTR",
+    "rigol_port": 5555,
+    "simulation": {
+        "tick_rate_ms": 500
+    },
+    "safety_limits": {
+        "max_temp_f": 80.6,    
+        "min_temp_f": 64.4,
+        "max_humidity_rh": 60.0,
+        "min_humidity_rh": 40.0,
+        "min_voltage_v": 2.0
+    },
+    "setpoints": {
+        "target_temp_f": 75.0,
+        "target_humidity_rh": 50.0
+    }
+}
