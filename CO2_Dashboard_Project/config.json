@@ -1,0 +1,22 @@
+{
+    "__comment": "Config for CO2 Dashboard. Editing this updates logic without recompiling.",
+    
+    "settings": {
+        "alarm_threshold": 20,
+        "site_id": "PENA_Reno_01",
+        "log_retention_days": 30
+    },
+
+    "tank_profiles": {
+        "K-Size": {
+            "description": "Standard K-Cylinder (High Pressure)",
+            "tare_weight_lbs": 75.0,
+            "max_gross_weight_lbs": 225.0
+        },
+        "T-Size": {
+            "description": "Large T-Cylinder (High Pressure)",
+            "tare_weight_lbs": 100.0,
+            "max_gross_weight_lbs": 300.0
+        }
+    }
+}
